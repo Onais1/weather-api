@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    background-image: url(https://images.unsplash.com/photo-1554331808-4e46e8ee8041?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80);
+    font-size: 120%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+   
+}
+
+.card {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.8em;
+    border-radius: 18px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+    width: calc(80% - 50px);
+
+}
+
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 50px;
+    width: 50px;
+    outline: none;
+    cursor: pointer;
+    transition: ease-in-out;
+    background: #7c7c7c2b;
+    color: white;
+
+}
+
+input#searchUser {
+    border: none;
+    outline: none;
+    padding: 0.8em;
+    border-radius: 18px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+}
+
+
+
+
+
+
+
